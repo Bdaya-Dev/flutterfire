@@ -2,15 +2,13 @@ importScripts("https://www.gstatic.com/firebasejs/9.10.0/firebase-app-compat.js"
 importScripts("https://www.gstatic.com/firebasejs/9.10.0/firebase-messaging-compat.js");
 
 firebase.initializeApp({
-  apiKey: 'AIzaSyB7wZb2tO1-Fs6GbDADUSTs2Qs3w08Hovw',
-  appId: '1:406099696497:web:87e25e51afe982cd3574d0',
-  messagingSenderId: '406099696497',
-  projectId: 'flutterfire-e2e-tests',
-  authDomain: 'flutterfire-e2e-tests.firebaseapp.com',
-  databaseURL:
-      'https://flutterfire-e2e-tests-default-rtdb.europe-west1.firebasedatabase.app',
-  storageBucket: 'flutterfire-e2e-tests.appspot.com',
-  measurementId: 'G-JN95N1JV2E',
+  apiKey: 'AIzaSyCYiC7cSTeV0dnsM-SfscK2UOYwvc75TBE',
+  appId: '1:924349514547:web:0f9263475ed666ea76b446',
+  messagingSenderId: '924349514547',
+  projectId: 'digital-design-meal-planning',
+  authDomain: 'digital-design-meal-planning.firebaseapp.com',
+  storageBucket: 'digital-design-meal-planning.appspot.com',
+  measurementId: 'G-76X49RBE85',
 });
 // Necessary to receive background messages:
 const messaging = firebase.messaging();

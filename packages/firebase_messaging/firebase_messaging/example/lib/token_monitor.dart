@@ -37,7 +37,7 @@ class _TokenMonitor extends State<TokenMonitor> {
     FirebaseMessaging.instance
         .getToken(
             vapidKey:
-                'BNKkaUWxyP_yC_lki1kYazgca0TNhuzt2drsOrL6WrgGbqnMnr8ZMLzg_rSPDm6HKphABS0KzjPfSqCXHXEd06Y')
+                'BDzg-HGK5yj0cNRcAx7MEzeVxLtscojneN-U-Z19--zXI4ejK9uTzIUWYyTY4gPPYI2c25v77sbeOm4lJdYIfr0')
         .then(setToken);
     _tokenStream = FirebaseMessaging.instance.onTokenRefresh;
     _tokenStream.listen(setToken);
